@@ -1,0 +1,413 @@
+Script started on Fri 15 Dec 2017 10:37:07 PM PST
+devon.wilson1@syccuxas01:~/cs162/project5> gdb ./a.outls[Kgdb ./a.out [K [Kls[Kgdb ./a.out[Kgdb ./a.outls[Kgdb ./a.outls[Kgdb ./a.outls[Kgdb ./a.out[Kvl[Kalgrind --tool=memcheck --leak-check=full .a[K/a.out
+==29644== Memcheck, a memory error detector
+==29644== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==29644== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==29644== Command: ./a.out
+==29644== 
+ 
+ 
+********MAIN MENU******** 
+1 - Print Inventory 
+2 - Search by Publisher 
+3 - Find book by ISBN Number 
+4 - Add Book 
+5 - Modify 
+6 - Delete 
+7 - quit 
+Enter choice: 
+1
+ISBN: 8
+======Book======
+Title: Alice in Wonderland
+Author: Lewis Carroll
+Publisher: HarperCollins
+Price: 14.99
+In stock total: 128
+ISBN: 1
+======Book======
+Title: Devon's Book
+Author: George Orwell
+Publisher: HarperCollins
+Price: 20.99
+In stock total: 212
+ISBN: 4
+======Book======
+Title: Dracula
+Author: Bram Stoker
+Publisher: Penguin Books
+Price: 15.99
+In stock total: 234
+ISBN: 7
+======Book======
+Title: Flatland
+Author: Edwin Abbott
+Publisher: McGraw-Hill
+Price: 8.99
+In stock total: 34
+ISBN: 6
+======Book======
+Title: Hard times
+Author: Charles Dickins
+Publisher: Penguin Books
+Price: 11.99
+In stock total: 317
+ISBN: 2
+======Book======
+Title: Oliver Twist
+Author: Charles Dickins
+Publisher: Random House
+Price: 14.99
+In stock total: 152
+ISBN: 5
+======Book======
+Title: Persuasion
+Author: ‎Jane Austin
+Publisher: Random House
+Price: 12.99
+In stock total: 323
+ISBN: 3
+======Book======
+Title: White Fang
+Author: Jack London
+Publisher: Random House
+Price: 11
+In stock total: 119
+ 
+ 
+********MAIN MENU******** 
+1 - Print Inventory 
+2 - Search by Publisher 
+3 - Find book by ISBN Number 
+4 - Add Book 
+5 - Modify 
+6 - Delete 
+7 - quit 
+Enter choice: 
+2
+ 
+Enter publisher of book: 
+ 
+Random House
+ 
+ISBN: 2
+======Book======
+Title: Oliver Twist
+Author: Charles Dickins
+Publisher: Random House
+Price: 14.99
+In stock total: 152
+ISBN: 5
+======Book======
+Title: Persuasion
+Author: ‎Jane Austin
+Publisher: Random House
+Price: 12.99
+In stock total: 323
+ISBN: 3
+======Book======
+Title: White Fang
+Author: Jack London
+Publisher: Random House
+Price: 11
+In stock total: 119
+ 
+ 
+********MAIN MENU******** 
+1 - Print Inventory 
+2 - Search by Publisher 
+3 - Find book by ISBN Number 
+4 - Add Book 
+5 - Modify 
+6 - Delete 
+7 - quit 
+Enter choice: 
+3
+ 
+Enter isbn of book: 
+4
+ISBN: 4
+======Book======
+Title: Dracula
+Author: Bram Stoker
+Publisher: Penguin Books
+Price: 15.99
+In stock total: 234
+ 
+ 
+********MAIN MENU******** 
+1 - Print Inventory 
+2 - Search by Publisher 
+3 - Find book by ISBN Number 
+4 - Add Book 
+5 - Modify 
+6 - Delete 
+7 - quit 
+Enter choice: 
+4
+ 
+Book's ISBN? (must be unique) 
+45
+ 
+Title:
+Dev   New
+ 
+Author? 
+devon
+ 
+Publisher? 
+devon
+ 
+Price?
+12.99
+ 
+In Stock Total?( < 0) 
+56
+ 
+ 
+********MAIN MENU******** 
+1 - Print Inventory 
+2 - Search by Publisher 
+3 - Find book by ISBN Number 
+4 - Add Book 
+5 - Modify 
+6 - Delete 
+7 - quit 
+Enter choice: 
+5
+ 
+ 
+********Modify******** 
+1 - ISBN 
+2 - title 
+3 - author 
+4 - publisher 
+5 - price 
+6 - In Stock Total 
+7 - go back to main menu
+Enter choice: 
+1
+ 
+ISBN number of book to modify? 
+4
+ 
+New ISBN? 
+89
+ 
+ 
+********Modify******** 
+1 - ISBN 
+2 - title 
+3 - author 
+4 - publisher 
+5 - price 
+6 - In Stock Total 
+7 - go back to main menu
+Enter choice: 
+2
+ 
+ISBN number of book to modify? 
+89
+ 
+Title? 
+Devon       R renamed
+ 
+ 
+********Modify******** 
+1 - ISBN 
+2 - title 
+3 - author 
+4 - publisher 
+5 - price 
+6 - In Stock Total 
+7 - go back to main menu
+Enter choice: 
+3
+ 
+ISBN number of book to modify? 
+3
+ 
+Author? 
+Devon Wilson
+ 
+ 
+********Modify******** 
+1 - ISBN 
+2 - title 
+3 - author 
+4 - publisher 
+5 - price 
+6 - In Stock Total 
+7 - go back to main menu
+Enter choice: 
+5
+ 
+ISBN number of book to modify? 
+3
+ 
+Price? 
+45.99
+ 
+ ISBN of book does not exist 
+ 
+ 
+********Modify******** 
+1 - ISBN 
+2 - title 
+3 - author 
+4 - publisher 
+5 - price 
+6 - In Stock Total 
+7 - go back to main menu
+Enter choice: 
+6
+ 
+ISBN number of book to modify? 
+4
+ 
+ ISBN of book does not exist 
+ 
+ 
+********Modify******** 
+1 - ISBN 
+2 - title 
+3 - author 
+4 - publisher 
+5 - price 
+6 - In Stock Total 
+7 - go back to main menu
+Enter choice: 
+6
+ 
+ISBN number of book to modify? 
+3
+ 
+In Stock Total? 
+89
+ 
+ 
+********Modify******** 
+1 - ISBN 
+2 - title 
+3 - author 
+4 - publisher 
+5 - price 
+6 - In Stock Total 
+7 - go back to main menu
+Enter choice: 
+7
+ 
+ 
+********MAIN MENU******** 
+1 - Print Inventory 
+2 - Search by Publisher 
+3 - Find book by ISBN Number 
+4 - Add Book 
+5 - Modify 
+6 - Delete 
+7 - quit 
+Enter choice: 
+1
+ISBN: 8
+======Book======
+Title: Alice in Wonderland
+Author: Lewis Carroll
+Publisher: HarperCollins
+Price: 14.99
+In stock total: 128
+ISBN: 1
+======Book======
+Title: Devon's Book
+Author: George Orwell
+Publisher: HarperCollins
+Price: 20.99
+In stock total: 212
+ISBN: 7
+======Book======
+Title: Flatland
+Author: Edwin Abbott
+Publisher: McGraw-Hill
+Price: 8.99
+In stock total: 34
+ISBN: 6
+======Book======
+Title: Hard times
+Author: Charles Dickins
+Publisher: Penguin Books
+Price: 11.99
+In stock total: 317
+ISBN: 45
+======Book======
+Title: New
+Author: devon
+Publisher: devon
+Price: 12.99
+In stock total: 56
+ISBN: 2
+======Book======
+Title: Oliver Twist
+Author: Charles Dickins
+Publisher: Random House
+Price: 14.99
+In stock total: 152
+ISBN: 5
+======Book======
+Title: Persuasion
+Author: ‎Jane Austin
+Publisher: Random House
+Price: 12.99
+In stock total: 323
+ISBN: 3
+======Book======
+Title: White Fang
+Author: Devon Wilson
+Publisher: Random House
+Price: 45.99
+In stock total: 89
+ISBN: 89
+======Book======
+Title: renamed
+Author: Bram Stoker
+Publisher: Penguin Books
+Price: 15.99
+In stock total: 15
+ 
+ 
+********MAIN MENU******** 
+1 - Print Inventory 
+2 - Search by Publisher 
+3 - Find book by ISBN Number 
+4 - Add Book 
+5 - Modify 
+6 - Delete 
+7 - quit 
+Enter choice: 
+7
+ 
+*** END OF PROGRAM **
+==29644== 
+==29644== HEAP SUMMARY:
+==29644==     in use at exit: 78,320 bytes in 10 blocks
+==29644==   total heap usage: 25 allocs, 15 frees, 97,034 bytes allocated
+==29644== 
+==29644== 5,616 (624 direct, 4,992 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 5
+==29644==    at 0x4C27D49: operator new(unsigned long) (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==29644==    by 0x401B08: Inventory::buildList(int, char*, char*, char*, double, int) (in /home/student/devon.wilson1/cs162/project5/a.out)
+==29644==    by 0x401A44: Inventory::readIn() (in /home/student/devon.wilson1/cs162/project5/a.out)
+==29644==    by 0x403A17: main (in /home/student/devon.wilson1/cs162/project5/a.out)
+==29644== 
+==29644== LEAK SUMMARY:
+==29644==    definitely lost: 624 bytes in 1 blocks
+==29644==    indirectly lost: 4,992 bytes in 8 blocks
+==29644==      possibly lost: 0 bytes in 0 blocks
+==29644==    still reachable: 72,704 bytes in 1 blocks
+==29644==         suppressed: 0 bytes in 0 blocks
+==29644== Reachable blocks (those to which a pointer was found) are not shown.
+==29644== To see them, rerun with: --leak-check=full --show-reachable=yes
+==29644== 
+==29644== For counts of detected and suppressed errors, rerun with: -v
+==29644== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 2 from 2)
+devon.wilson1@syccuxas01:~/cs162/project5> exit[K[K[K[Kexit
+exit
+
+Script done on Fri 15 Dec 2017 10:40:27 PM PST
